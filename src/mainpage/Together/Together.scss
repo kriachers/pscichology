@@ -1,0 +1,68 @@
+/* together */
+.AppTogether {
+    padding: 80px 0;
+    background: #F9FCFF;
+    margin-bottom: 100px;
+}
+
+.AppTogether__wrapper {
+    margin: 0 auto;
+    max-width: 578px;
+    text-align: center;
+}
+
+.AppTogether__arrow {
+    top: 100px;
+    right: -130px;
+}
+
+/* --------------- */
+/* Problems Component */
+
+.AppTogether__problems {
+    margin-right: 30px;
+    padding: 13px 40px;
+    border: 2px solid #7872B9;
+    border-radius: 40px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.AppTogether__flex {
+    overflow: auto;
+}
+
+
+.AppTogether__problems--purple {
+    background: #7872B9;
+}
+
+.AppTogether-problems__title {
+    margin: auto 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #7872B9;
+}
+
+.AppTogether-problems__title--purple {
+    color: #FFFFFF;
+}
+
+.AppTogether__wrapper {
+    margin-bottom: 145px;
+}
+
+@media (max-width: 800px) {
+    .AppTogether__arrow {
+        top: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

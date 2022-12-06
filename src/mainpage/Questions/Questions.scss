@@ -1,0 +1,70 @@
+/* Questions */
+
+.Questions__title {
+    margin-bottom: 60px;
+}
+
+.Questions__accordion:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.Questions__accordion {
+    cursor: pointer;
+    background: #EBF5FF;
+    border-radius: 25px;
+}
+
+.Questions-accordion__top {
+    padding: 36px 100px 36px 100px;
+}
+
+/* lower padding when accordion is open (for smaller distance between title and descr */
+
+.Questions-accordion__top.open {
+    padding: 36px 100px 15px 100px;
+}
+
+.Questions-accordion__bottom {
+    padding: 0px 100px 36px 100px;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: hidden;
+}
+
+@media (max-width: 900px) {
+    .Questions-accordion__top {
+        padding: 36px 60px 36px 60px;
+    }
+
+    /* lower padding when accordion is open (for smaller distance between title and descr */
+
+    .Questions-accordion__top.open {
+        padding: 36px 60px 15px 60px;
+    }
+
+    .Questions-accordion__bottom {
+        padding: 0px 60px 36px 60px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .Questions-accordion__top {
+        padding: 36px 40px 36px 40px;
+    }
+
+    /* lower padding when accordion is open (for smaller distance between title and descr */
+
+    .Questions-accordion__top.open {
+        padding: 36px 40px 15px 40px;
+    }
+
+    .Questions-accordion__bottom {
+        padding: 0px 40px 36px 40px;
+    }
+}

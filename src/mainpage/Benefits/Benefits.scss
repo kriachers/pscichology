@@ -1,0 +1,56 @@
+/* Benefits */
+
+
+
+.AppBenefits__title {
+    margin-bottom: calc(80px + 110px);
+}
+
+.Benefits__item {
+    padding: 130px 40px 44px 40px;
+    width: 380px;
+    background: #EBF5FF;
+    border-radius: 20px;
+}
+
+.Benefits__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.Benefits-item__title {
+    margin-bottom: 15px;
+
+}
+
+.Benefits-item__icon {
+    left: 50%;
+    transform: translateX(-50%);
+    top: -110px;
+}
+
+@media (max-width: 900px) {
+
+    .AppBenefits__title {
+        text-align: center;
+    }
+
+
+    .AppBenefits__flex {
+        flex-direction: column;
+    }
+
+    .Benefits__item {
+        align-self: center;
+    }
+
+    .Benefits__item:not(:last-child) {
+        margin-right: 0px;
+        margin-bottom: 130px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Benefits__item {
+        width: 100%;
+    }
+}

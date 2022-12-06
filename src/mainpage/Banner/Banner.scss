@@ -1,0 +1,105 @@
+/* AppHeader */
+
+.AppHeader__img {
+    min-width: 300px;
+}
+
+.AppHeader__title {
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #7872B9;
+}
+
+.AppHeader__descr {
+    margin-bottom: 5rem;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #4D4D52;
+}
+
+@media (max-width: 800px) {
+
+    .AppHeader__title {
+        font-size: 40px;
+    }
+
+    .AppHeader__descr {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .AppHeader__title {
+        font-size: 35px;
+    }
+
+    .AppHeader__descr {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .AppHeader__title {
+        font-size: 24px;
+    }
+
+    .AppHeader__descr {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+}
+
+.AppHeader__small {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #4D4D52;
+}
+
+@media (max-width: 900px) {
+
+
+    .AppHeader {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    h1 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+
+    .AppHeader__img {
+        width: 100%;
+    }
+
+    .AppHeader__title,
+    .AppHeader__descr,
+    .AppHeader__small {
+        text-align: center;
+    }
+
+    .AppHeader__button-wrapper {
+        text-align: center;
+    }
+
+
+}

@@ -1,0 +1,38 @@
+/* ------------- */
+/* WorkersTile */
+
+.WorkersTile__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+
+
+.WorkersTile-grid__item {
+    padding: 20px 30px;
+    background: #EBF5FF;
+    border-radius: 20px;
+}
+
+@media (max-width: 1000px) {
+    .WorkersTile-grid-item__img {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+
+
+    .WorkersTile__grid {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .WorkersTile-grid__item {
+        padding: 20px 20px;
+        width: 100%;
+    }
+}

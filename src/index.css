@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+@import './reset.scss';
+
+@import './commons.scss';
+
+@import './commons/Header/Header.scss';
+@import './mainpage/Banner/Banner.scss';
+@import './mainpage/Benefits/Benefits.scss';
+@import './mainpage//Workers/Workers.scss';
+@import './mainpage/Steps/Steps.scss';
+@import './mainpage/Questions/Questions.scss';
+@import './mainpage/Together/Together.scss';
+
+
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.woff2);
+  font-weight: 400;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Medium.woff2);
+  font-weight: 500;
 }
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-SemiBold.woff);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Bold.woff);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-ExtraBold.woff2);
+  font-weight: 800;
+}
+
+
+
+/* -------------------- */
+
+/* headings */
+
+
+.purpleButton {
+
+  /* margins for before */
+  margin-right: 8px;
+  margin-bottom: 45px;
+  /* 15 + 30 */
+
+  position: relative;
+  padding: 25px 0px;
+  width: 380px;
+  background: #7872B9;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.purpleButton::before {
+  cursor: pointer;
+  z-index: -1;
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 15px;
+  background: #CDE1FF;
+  border-radius: 15px;
+  width: 380px;
+  height: 70px;
+}
+
+
+/* .Container {
+  margin: 0px 210px;
+}
+
+.Container-bottom {
+  margin-bottom: 100px;
+}
+
+.Conatiner-blue {
+  padding: 100px 0;
+  background: #F9FCFF;
+} */
+
+
+
+/* AppHeader */
