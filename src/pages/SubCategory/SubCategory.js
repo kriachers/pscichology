@@ -23,7 +23,6 @@ function SubCategory({ data }) {
             <div className="SubCategory__nav">
                 <p className="Subcategory-nav__main Subcategory-nav__item">Категории</p>
                 <p className="Subcategory-nav__category-name Subcategory-nav__item">{data[0].category}</p>
-                {/* <p className="Subcategory-nav__article-name Subcategory-nav__item"></p> */}
             </div>
 
             <>
