@@ -1,5 +1,13 @@
 /* Header */
 
+.header__nav {
+    align-items: center;
+}
+
+.header-nav__link.active {
+    color: #7872B9;
+}
+
 .header-nav__item:not(:last-child) {
     margin-right: 70px;
 }
@@ -7,6 +15,7 @@
 .header-nav__list {
     align-items: center;
     justify-content: space-between;
+    margin-right: 30px;
 }
 
 .header-nav__link {
@@ -46,6 +55,7 @@
 
     .header-nav__list {
         align-items: flex-start;
+        margin-right: 0;
         margin-bottom: 30px;
     }
 

@@ -3,10 +3,13 @@
 @tailwind utilities;
 
 @import './reset.scss';
-
 @import './commons.scss';
 
+/* Header & footer */
 @import './commons/Header/Header.scss';
+@import './commons/Footer/Footer.scss';
+
+/* Main Page */
 @import './mainpage/Banner/Banner.scss';
 @import './mainpage/Benefits/Benefits.scss';
 @import './mainpage//Workers/Workers.scss';
@@ -14,7 +17,25 @@
 @import './mainpage/Questions/Questions.scss';
 @import './mainpage/Together/Together.scss';
 
+/* Category Page (Материалы) */
 
+@import './pages/Category/CategoryPage.scss';
+
+/* Subcategory Page */
+
+@import './pages/SubCategory/SubCategory.scss';
+
+/* Article Page */
+
+@import './pages/Article/Article.scss';
+
+/* ELEMENTS */
+
+/* Popular */
+@import './pages/Elements/Popular/Popular.scss';
+
+/* Slider */
+@import './pages/Elements/Popular/Slider/Slider.scss';
 
 @font-face {
   font-family: Montserrat;
@@ -59,7 +80,6 @@
   margin-right: 8px;
   margin-bottom: 45px;
   /* 15 + 30 */
-
   position: relative;
   padding: 25px 0px;
   width: 380px;
