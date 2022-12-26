@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/psychology/static/css/main.b0db124f.css",
+    "main.js": "/psychology/static/js/main.b531e7b8.js",
+    "static/js/787.031036b5.chunk.js": "/psychology/static/js/787.031036b5.chunk.js",
+    "static/media/Montserrat-Bold.woff": "/psychology/static/media/Montserrat-Bold.b22fe5caeddce930c9e1.woff",
+    "static/media/Montserrat-SemiBold.woff": "/psychology/static/media/Montserrat-SemiBold.d68d21f7cdf6a25d3ff6.woff",
+    "static/media/Montserrat-ExtraBold.woff2": "/psychology/static/media/Montserrat-ExtraBold.da26df423939a78bd5c1.woff2",
+    "static/media/Montserrat-Medium.woff2": "/psychology/static/media/Montserrat-Medium.c0eae82d207026ba4426.woff2",
+    "static/media/Montserrat-Regular.woff2": "/psychology/static/media/Montserrat-Regular.fcb334ae86289352c6f6.woff2",
+    "static/media/arrow.svg": "/psychology/static/media/arrow.a2261973e91f681d60ef.svg",
+    "index.html": "/psychology/index.html",
+    "main.b0db124f.css.map": "/psychology/static/css/main.b0db124f.css.map",
+    "main.b531e7b8.js.map": "/psychology/static/js/main.b531e7b8.js.map",
+    "787.031036b5.chunk.js.map": "/psychology/static/js/787.031036b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0db124f.css",
+    "static/js/main.b531e7b8.js"
+  ]
+}
