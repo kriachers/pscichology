@@ -1,15 +1,7 @@
-
-
-import { useState } from "react";
-
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-    Link,
-    NavLink
-} from 'react-router-dom';
-
+import {ReactComponent as FooterLogo} from '../../icons/logo.svg';
+import {ReactComponent as VkLogo} from '../../icons/social/vk.svg';
+import {ReactComponent as DzenLogo} from '../../icons/social/dzen.svg';
+import {ReactComponent as TGLogo} from '../../icons/social/tg.svg';
 
 function Footer() {
     return (
@@ -17,11 +9,11 @@ function Footer() {
         <footer>
             <div className="Container footer-container">
                 <div className="footer__media flex justify-between">
-                    <img src="./logo.svg" alt="" className="footer-media__logo" />
+                    <FooterLogo />
                     <div className="flex">
-                        <a href="" className="footer-media-social__item"><img src="./icons/social/vk.svg" alt="" /></a>
-                        <a href="" className="footer-media-social__item"><img src="./icons/social/dzen.svg" alt="" /></a>
-                        <a href="" className="footer-media-social__item"><img src="./icons/social/tg.svg" alt="" /></a>
+                        <a href="*" className="footer-media-social__item"><VkLogo /></a>
+                        <a href="*" className="footer-media-social__item"><DzenLogo /></a>
+                        <a href="*" className="footer-media-social__item"><TGLogo /></a>
                     </div>
                 </div>
             </div>

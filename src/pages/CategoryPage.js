@@ -1,18 +1,10 @@
-import React, { useState } from 'react';
-import '../App.css';
-import { Articles } from '../data/ARTICLES';
+import React from 'react';
 import { CategoryData } from '../data/CATEGORIES'
-import SubCategory from './SubCategory/SubCategory'
 
 import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
     Link
 } from 'react-router-dom';
 import { useApplicationContext, defaultAppState } from '../ApplicationContext/ApplicationContext';
-import { useEffect } from 'react';
-
 
 function CategoryPage() {
 

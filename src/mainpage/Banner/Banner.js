@@ -1,4 +1,6 @@
-import PurpleButton from '../../commons/PurpleButton'
+import PurpleButton from '../../commons/PurpleButton';
+import {ReactComponent as MainIcon} from '../../icons/main.svg';
+
 function Banner(props) {
 
     return (
@@ -12,7 +14,7 @@ function Banner(props) {
 
                 <p className="AppHeader__small ">2770 руб. за 50 минут сессии</p>
             </div>
-            <img className="AppHeader__img" src="./App/main.svg" alt="" />
+            <MainIcon />
         </div>
 
     )

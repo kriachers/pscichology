@@ -2,7 +2,7 @@
 function WorkersTile(props) {
 
     let isImg = false;
-    if (props.size == 'big') {
+    if (props.size === 'big') {
         isImg = true;
     }
 

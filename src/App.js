@@ -1,4 +1,3 @@
-import './App.css';
 import Header from './commons/Header/Header';
 import Footer from './commons/Footer/Footer'
 
@@ -14,13 +13,11 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from 'react-router-dom';
-import { useContext } from 'react';
 
 function App() {
 
-  const [contextData, contextHandlers] = useApplicationContext();
+  const [contextData, ] = useApplicationContext();
 
   console.log('context in App', contextData.articles);
   return (

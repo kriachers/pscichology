@@ -1,16 +1,7 @@
-import '../../App.css';
-import { Articles } from '../../data/ARTICLES';
-import { useLocation } from 'react-router-dom'
-
 import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
     Link
 } from 'react-router-dom';
 import { useApplicationContext, defaultAppState } from '../../ApplicationContext/ApplicationContext';
-import { useEffect } from 'react';
-
 
 
 function SubCategory({ data }) {

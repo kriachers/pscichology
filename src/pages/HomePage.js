@@ -1,6 +1,3 @@
-import '../App.css';
-
-import Header from '../commons/Header/Header';
 import Banner from '../mainpage/Banner/Banner';
 import Benefits from '../mainpage/Benefits/Benefits'
 import Workers from '../mainpage/Workers/Workers'

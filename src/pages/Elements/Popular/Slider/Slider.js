@@ -4,13 +4,9 @@ import { appData } from '../../../../data/DATA'
 import { useState } from "react";
 
 import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
     Link
 } from 'react-router-dom';
 import { useApplicationContext, defaultAppState } from '../../../../ApplicationContext/ApplicationContext';
-import { useEffect } from 'react';
 
 
 function Slider() {
