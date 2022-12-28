@@ -6,7 +6,7 @@ const workersList = [
         size: 'big',
         title: 'Образование',
         descr: 'Диплом о высшем психологическом образовании и дополнительные сертификаты',
-        img: './icons/book.svg'
+        img: '../../pictures/icons/book.svg'
     },
     {
         size: 'small',
@@ -22,7 +22,7 @@ const workersList = [
         size: 'big',
         title: 'Личная терапия',
         descr: 'Прохождение личной терапии от 50 часов в год',
-        img: './icons/watch.svg'
+        img: '../../pictures/icons/watch.svg'
     }
 ]
 

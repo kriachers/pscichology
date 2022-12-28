@@ -9,7 +9,7 @@ function StepsTile(props) {
             <div className={`Steps-item__data flex relative`}>
                 <div className="relative">
                     <img src={`${props.numImg}`} className='Steps-item__num' alt="" />
-                    <img src="./elems/round.svg" className='Steps-item__round' alt="" />
+                    <img src="../pictures/elems/round.svg" className='Steps-item__round' alt="" />
                 </div>
                 <div className={`relative`}>
                     <p className='text-bold mb-2'>{props.title}</p>

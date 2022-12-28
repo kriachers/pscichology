@@ -1,5 +1,5 @@
-import {ReactComponent as HeaderLogo} from '../../icons/logo.svg';
-import {ReactComponent as MenuLogo} from '../../icons/menu.svg';
+import {ReactComponent as HeaderLogo} from '../../pictures/icons/logo.svg';
+import {ReactComponent as MenuLogo} from '../../pictures/icons/menu.svg';
 import { useState } from "react";
 
 import {

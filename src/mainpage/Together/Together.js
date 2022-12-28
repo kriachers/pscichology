@@ -81,7 +81,7 @@ function Together(props) {
                     <p className="text-bold mb-2.5">Вместе мы справимся</p>
                     <h2 className="AppTogether__title mb-5">В YouMi вы не одни</h2>
                     <p className="text-light">Профессиональные психологи помогут разобрать вопросы, которые вы не можете решить в одиночку:</p>
-                    <img className="AppTogether__arrow absolute" src="./App/arrow.svg" alt="" />
+                    <img className="AppTogether__arrow absolute" src="../../pictures/App/arrow.svg" alt="" />
                 </div>
             </div>
 

@@ -1,5 +1,5 @@
 import PurpleButton from '../../commons/PurpleButton';
-import {ReactComponent as MainIcon} from '../../icons/main.svg';
+import {ReactComponent as MainIcon} from '../../pictures/icons/main.svg';
 
 function Banner(props) {
 

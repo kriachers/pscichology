@@ -1,7 +1,7 @@
-import {ReactComponent as FooterLogo} from '../../icons/logo.svg';
-import {ReactComponent as VkLogo} from '../../icons/social/vk.svg';
-import {ReactComponent as DzenLogo} from '../../icons/social/dzen.svg';
-import {ReactComponent as TGLogo} from '../../icons/social/tg.svg';
+import {ReactComponent as FooterLogo} from '../../pictures/icons/logo.svg';
+import {ReactComponent as VkLogo} from '../../pictures/icons/social/vk.svg';
+import {ReactComponent as DzenLogo} from '../../pictures/icons/social/dzen.svg';
+import {ReactComponent as TGLogo} from '../../pictures/icons/social/tg.svg';
 
 function Footer() {
     return (
